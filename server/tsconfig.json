@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist/js",
+    "rootDir": "src",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["src/types/*.ts", "node_modules", ".vscode"]
+}
+//   outDir: 告诉编译器把编译好的代码放进  dist/js  文件夹
+// rootDir: 告诉 TypeScript 编译 src 文件夹中的每个 .ts 文件
+// include: 告诉编译器包含 src 目录和子目录中的文件
+// exclude: 在编译时会排除数组中的文件或文件夹
